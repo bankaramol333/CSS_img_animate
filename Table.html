@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end & Back-end Development</title>
+
+    <link rel="stylesheet" href="./table_style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="progress">
+      <span id="progress-value"></span>
+    </div>
+    <header>
+      <h1>
+        Front-end & Back-end Development
+        
+      </h1>
+
+      <p>
+        Front-end and back-end development are the two primary pillars of modern
+        web development. They work together to create the full web experience
+        for users.
+      </p>
+    </header>
+    <div class="development-wrapper">
+      <div class="development-section">
+        <h2>Front-end Development</h2>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="front_end.png" alt="Card Front Image" />
+            </div>
+            <div class="flip-card-back">
+              <div class="card-content">
+                <h2><u>Front End</u></h2>
+                <ul style="text-align: left; font-family: serif">
+                  <li>HTML</li>
+                  <li>CSS/SASS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Next.js</li>
+                  <li>Flutter</li>
+                </ul>
+                <button
+                  style="background-color: rgb(57, 35, 139)"
+                  class="btn"
+                  type="button"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          Front-end development focuses on the visual and interactive elements
+          of a website. Front-end developers are responsible for creating the
+          user interface and ensuring a smooth user experience. They use
+          technologies such as HTML, CSS, and JavaScript to build responsive
+          layouts, handle user interactions, and implement animations.
+        </p>
+        <p>
+          Front-end developers work closely with designers to bring their
+          visions to life. They are also concerned with optimizing the
+          performance of the website on the client's device and ensuring it is
+          accessible to all users.
+        </p>
+        <p>
+          Some popular front-end frameworks and libraries include React,
+          Angular, Vue.js, and Bootstrap.
+        </p>
+      </div>
+
+      <div class="development-section">
+        <h2>Back-end Development</h2>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="back_end.png" alt="Card Front Image" />
+            </div>
+            <div class="flip-card-back">
+              <div class="card-content">
+                <h2><u>Back End</u></h2>
+                <ul style="text-align: left; font-family: serif">
+                  <li>Node.js</li>
+                  <li>PHP</li>
+                  <li>Django</li>
+                  <li>Java</li>
+                  <li>Mango.db</li>
+                  <li>Express.js</li>
+                </ul>
+
+                <button class="btn" type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          Back-end development involves managing the server-side of web
+          applications. Back-end developers handle data processing, database
+          interactions, and server operations. They work with languages like
+          Python, Ruby, PHP, Java, Node.js, and others to build the server logic
+          that powers the application.
+        </p>
+        <p>
+          Security is a significant focus in back-end development, with
+          developers implementing measures such as authentication and
+          authorization to protect sensitive data and secure user information.
+        </p>
+        <p>
+          Popular back-end frameworks and platforms include Express.js, Django,
+          Ruby on Rails, and ASP.NET.
+        </p>
+      </div>
+    </div>
+    <div>
+      <h2>Comparison between Front-end and Back-end Development</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>Front-end Development</th>
+            <th>Back-end Development</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Focus</td>
+            <td>User interface and user experience</td>
+            <td>Server-side functionality and data management</td>
+          </tr>
+          <tr>
+            <td>Languages</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>Python, Ruby, PHP, Java, Node.js, C#, etc.</td>
+          </tr>
+          <tr>
+            <td>Execution</td>
+            <td>Client-side (in the user's browser)</td>
+            <td>Server-side (on the web server)</td>
+          </tr>
+          <tr>
+            <td>Purpose</td>
+            <td>Presentation and interactivity</td>
+            <td>
+              Data processing, database interactions, and server operations
+            </td>
+          </tr>
+          <tr>
+            <td>Tools/Frameworks</td>
+            <td>React, Angular, Vue.js, Bootstrap, etc.</td>
+            <td>Express.js, Django, Ruby on Rails, ASP.NET, etc.</td>
+          </tr>
+          <tr>
+            <td>Rendering</td>
+            <td>Done on the user's device</td>
+            <td>HTML/CSS/JavaScript generated on the server-side</td>
+          </tr>
+          <tr>
+            <td>Data Handling</td>
+            <td>
+              Manipulating data on the client-side (e.g., form validation)
+            </td>
+            <td>Processing data on the server-side (e.g., database queries)</td>
+          </tr>
+          <tr>
+            <td>Security</td>
+            <td>Focus on client-side security (e.g., input validation)</td>
+            <td>Emphasis on server-side security (e.g., authorization)</td>
+          </tr>
+          <tr>
+            <td>Performance</td>
+            <td>Impact on client device performance</td>
+            <td>Impact on server performance</td>
+          </tr>
+          <tr>
+            <td>Accessibility</td>
+            <td>Concerned with user accessibility</td>
+            <td>Not directly involved in accessibility</td>
+          </tr>
+          <tr>
+            <td>State Management</td>
+            <td>Often utilizes libraries like Redux or MobX</td>
+            <td>Handles state using databases and server-side storage</td>
+          </tr>
+          <tr>
+            <td>Interaction with Users</td>
+            <td>User events and interactions handled on the client-side</td>
+            <td>Processing and managing user input on the server-side</td>
+          </tr>
+          <tr>
+            <td>Real-time Functionality</td>
+            <td>Enabled through WebSocket or WebRTC</td>
+            <td>Achieved with technologies like WebSockets and WebRTC</td>
+          </tr>
+          <tr>
+            <td>Examples</td>
+            <td>
+              Creating responsive layouts, form validation, animations, etc.
+            </td>
+            <td>Handling user registrations, database interactions, etc.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="table.js"></script>
+  </body>
+</html>

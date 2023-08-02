@@ -1,0 +1,234 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 20px;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #4caf50;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+}
+
+.development-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.development-section {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.development-section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #d9d9d9;
+  transform: scale(1.02);
+  transition: transform 0.7s;
+}
+
+th:hover {
+  background-color: #d1e0e0;
+  transform: scale(1.05);
+  transition: transform 1s;
+  color: black;
+}
+
+th,
+td {
+  font-size: 18px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+#progress {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(50, 150, 60, 1);
+  display: grid;
+  place-items: center;
+}
+
+#progress-value {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.flip-card {
+  width: 400px;
+  height: 269px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+.flip-card-front img {
+  height: 100%;
+  width: 1000px;
+}
+
+.flip-card-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 30px;
+  border-color: #ccc;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #ccffb3;
+  color: black;
+  transform: scale(1.11);
+  transition: transform 0.5s;
+}
+
+.attribute {
+  position: absolute;
+  bottom: 10px;
+}
+
+u {
+  font-family: cursive;
+}
+
+.development-wrapper1:hover {
+  transform: scale(1.01);
+  transition: transform 1s;
+}
+.development-wrapper2:hover {
+  transform: scale(1.01);
+  transition: transform 1s;
+}
